@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #01191B;
+} 
+
+div{
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  border: 10px solid #0FBFCC;
+  width: 37%;
+  border-radius: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+div:hover{
+  color: #0FBFCC;
+  box-shadow: 0 0 30px #0FBFCC;
+}
+
+#date{
+  color: #0FBFCC;
+  font-weight: bold;
+  font-size: 6.25rem;
+}
